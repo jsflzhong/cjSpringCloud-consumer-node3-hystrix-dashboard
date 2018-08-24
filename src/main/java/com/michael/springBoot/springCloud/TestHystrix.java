@@ -23,6 +23,6 @@ public class TestHystrix implements TestFeign{
      */
     @Override
     public String testHello(String name) {
-        return "Hi there, i am the hystrix message in node5, interface:TestHystrix and method:testHello !";
+        return "Hi there, i am the hystrix fall back message in node7, interface:TestHystrix and method:testHello !";
     }
 }

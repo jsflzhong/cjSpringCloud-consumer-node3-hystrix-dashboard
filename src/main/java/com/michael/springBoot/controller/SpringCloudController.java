@@ -28,7 +28,7 @@ public class SpringCloudController {
     @ResponseBody
     public Object testCallRemoteService(String name) {
         //用feign接口,调用远程的服务提供者.
-        return testFeign.testHello(name) + "=========guess what? i am the consumer!";
+        return testFeign.testHello(name) + "=========guess what? i am the consumer-node3-hystrix-dashBoard!";
     }
 
 
